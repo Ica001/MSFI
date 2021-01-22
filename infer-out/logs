@@ -1,0 +1,120 @@
+[7973][      debug] Loading models took 62.655ms
+[7983][      debug] Sqlite write daemon: starting up
+[7983][      debug] Sqlite write daemon: set up complete, waiting for connections
+[7973][environment] CWD = /home/ica/Documents/Homework2MSFI/HW2/Component1
+[7973][environment] No .inferconfig file found
+[7973][environment] Project root = /home/ica/Documents/Homework2MSFI/HW2/Component1
+[7973][environment] INFER_ARGS =   @/tmp/args.tmp.829f69
+[7973][environment] command line arguments:   infer run -- javac LikedList.java Node.java
+[7973][environment]                           Program.java
+[7973][environment] Available memory at startup: 997 MB
+[7973][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[7973][environment] Scheduler: file
+[7973][environment] Cores used: 4
+[7973][environment] Infer version v1.0.0
+[7973][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[7973][environment] 
+[7973][   progress] Capturing in javac mode...
+[7973][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/HW2/Component1'
+[7973][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/HW2/Component1/infer-out/tmp/javac_args.tmp.0836e2' 2>'/home/ica/Documents/Homework2MSFI/HW2/Component1/infer-out/tmp/javac.tmp.cc4f33.out'
+[7973][      debug] *** Success. Logs:
+[7973][      debug] Translating 3 source files (3 classes)
+[7973][      debug] done capturing all files
+[7973][      debug] GC stats for capture:
+[7973][      debug]   minor_words: 1.78868e+06
+[7973][      debug]   promoted_words: 236944
+[7973][      debug]   major_words: 252006
+[7973][      debug]   minor_collections: 2
+[7973][      debug]   major_collections: 1
+[7973][      debug]   compactions: 0
+[7973][      debug]   top_heap_words: 1006592
+[7973][      debug]   
+[7973][environment] Parallel jobs: 4
+[7973][   progress] Found 3 source files to analyze in /home/ica/Documents/Homework2MSFI/HW2/Component1/infer-out
+[8029][   progress] Program.java starting
+[8028][   progress] LikedList.java starting
+[8027][   progress] Node.java starting
+[8027][   progress] Node.java DONE
+[8029][   progress] Program.java DONE
+[8028][   progress] LikedList.java DONE
+[7973][      debug] Backend stats:
+[7973][      debug]   summary_file_try_load= 60
+[7973][      debug]   summary_read_from_disk= 1
+[7973][      debug]   summary_cache_hits= 138 (69%)
+[7973][      debug]   summary_cache_misses= 60
+[7973][      debug]   ondemand_procs_analyzed= 8
+[7973][      debug]   ondemand_local_cache_hits= 51 (69%)
+[7973][      debug]   ondemand_local_cache_misses= 22
+[7973][      debug]   proc_locker_lock_time_user= 0.00000000
+[7973][      debug]   proc_locker_lock_time_sys= 0.00000000
+[7973][      debug]   proc_locker_lock_time_wall= 0.00000000
+[7973][      debug]   proc_locker_unlock_time_user= 0.00000000
+[7973][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[7973][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[7973][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[7973][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[7973][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[7973][      debug]   restart_scheduler_total_time_user= 0.00000000
+[7973][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[7973][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[7973][      debug]   
+[7973][      debug] GC stats for backend_stats.gc_stats_add.:
+[7973][      debug]   minor_words: 5.93392e+06
+[7973][      debug]   promoted_words: 326819
+[7973][      debug]   major_words: 343154
+[7973][      debug]   minor_collections: 7
+[7973][      debug]   major_collections: 2
+[7973][      debug]   compactions: 0
+[7973][      debug]   top_heap_words: 4479488
+[7973][      debug]   
+[7973][      debug] GC stats for backend_stats.gc_stats_max.:
+[7973][      debug]   minor_words: 3.71578e+06
+[7973][      debug]   promoted_words: 114943
+[7973][      debug]   major_words: 122430
+[7973][      debug]   minor_collections: 4
+[7973][      debug]   major_collections: 2
+[7973][      debug]   compactions: 0
+[7973][      debug]   top_heap_words: 1157632
+[7973][      debug]   
+[7973][      debug] Average over 4 processes
+[7973][      debug] GC stats for backend_stats.gc_stats_average.:
+[7973][      debug]   minor_words: 1.48348e+06
+[7973][      debug]   promoted_words: 81704.8
+[7973][      debug]   major_words: 85788.5
+[7973][      debug]   minor_collections: 1
+[7973][      debug]   major_collections: 0
+[7973][      debug]   compactions: 0
+[7973][      debug]   top_heap_words: 1119872
+[7973][      debug]   
+[7973][      debug] Analysis phase finished in 51.598ms
+[7973][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01330600
+[7973][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01028600
+[7973][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.05159834
+[7973][      debug] GC stats for analysis_scheduler:
+[7973][      debug]   minor_words: 265392
+[7973][      debug]   promoted_words: 101392
+[7973][      debug]   major_words: 110098
+[7973][      debug]   minor_collections: 1
+[7973][      debug]   major_collections: 2
+[7973][      debug]   compactions: 1
+[7973][      debug]   top_heap_words: 1006592
+[7973][      debug]   
+[7973][      debug] GC stats for report:
+[7973][      debug]   minor_words: 2747
+[7973][      debug]   promoted_words: 0
+[7973][      debug]   major_words: 0
+[7973][      debug]   minor_collections: 0
+[7973][      debug]   major_collections: 0
+[7973][      debug]   compactions: 0
+[7973][      debug]   top_heap_words: 1006592
+[7973][      debug]   
+[7973][      debug] GC stats for main_process_full:
+[7973][      debug]   minor_words: 3.57904e+06
+[7973][      debug]   promoted_words: 508352
+[7973][      debug]   major_words: 1.04033e+06
+[7973][      debug]   minor_collections: 10
+[7973][      debug]   major_collections: 5
+[7973][      debug]   compactions: 2
+[7973][      debug]   top_heap_words: 1006592
+[7973][      debug]   
+[7983][      debug] Sqlite write daemon: terminating

@@ -1,0 +1,5 @@
+Right click inside Component1 folder.
+Select "Open in Terminal".
+Type infer command:
+infer run -- javac *.java
+
