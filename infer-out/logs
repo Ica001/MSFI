@@ -239,3 +239,709 @@
 [8477][      debug]   top_heap_words: 574976
 [8477][      debug]   
 [8478][      debug] Sqlite write daemon: terminating
+
+[14419][      phase] ============================================================
+[14419][      phase] = New infer execution begins
+[14419][      phase] ============================================================
+[14420][      debug] Sqlite write daemon: starting up
+[14420][      debug] Sqlite write daemon: set up complete, waiting for connections
+[14419][      phase] ============================================================
+[14419][      phase] = New infer execution begins
+[14419][      phase] ============================================================
+[14419][environment] CWD = /home/ica/Documents/Homework2MSFI/MSFI
+[14419][environment] No .inferconfig file found
+[14419][environment] Project root = /home/ica/Documents/Homework2MSFI/MSFI
+[14419][environment] INFER_ARGS =   @/tmp/args.tmp.caca47
+[14419][environment] command line arguments:   infer --reactive -- javac LikedList.java
+[14419][environment]                           Program.java Program.java
+[14419][environment] Available memory at startup: 477 MB
+[14419][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[14419][environment] Scheduler: file
+[14419][environment] Cores used: 4
+[14419][environment] Infer version v1.0.0
+[14419][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[14419][environment] 
+[14419][   progress] Capturing in javac mode...
+[14419][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/MSFI'
+[14419][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac_args.tmp.401a13' 2>'/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac.tmp.a46a9a.out'
+[14419][      debug] *** Success. Logs:
+[14419][      debug] Translating 2 source files (3 classes)
+[14419][      debug] done capturing all files
+[14419][      debug] GC stats for capture:
+[14419][      debug]   minor_words: 1.93347e+06
+[14419][      debug]   promoted_words: 249859
+[14419][      debug]   major_words: 264879
+[14419][      debug]   minor_collections: 2
+[14419][      debug]   major_collections: 1
+[14419][      debug]   compactions: 0
+[14419][      debug]   top_heap_words: 434176
+[14419][      debug]   
+[14419][environment] Parallel jobs: 4
+[14419][   progress] Found 2 (out of 3) source files to analyze in /home/ica/Documents/Homework2MSFI/MSFI/infer-out
+[14446][   progress] Program.java starting
+[14447][   progress] LikedList.java starting
+[14446][   progress] Program.java DONE
+[14447][   progress] LikedList.java DONE
+[14419][      debug] Backend stats:
+[14419][      debug]   summary_file_try_load= 155
+[14419][      debug]   summary_read_from_disk= 0
+[14419][      debug]   summary_cache_hits= 168 (52%)
+[14419][      debug]   summary_cache_misses= 155
+[14419][      debug]   ondemand_procs_analyzed= 7
+[14419][      debug]   ondemand_local_cache_hits= 112 (83%)
+[14419][      debug]   ondemand_local_cache_misses= 22
+[14419][      debug]   proc_locker_lock_time_user= 0.00000000
+[14419][      debug]   proc_locker_lock_time_sys= 0.00000000
+[14419][      debug]   proc_locker_lock_time_wall= 0.00000000
+[14419][      debug]   proc_locker_unlock_time_user= 0.00000000
+[14419][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[14419][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[14419][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[14419][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[14419][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[14419][      debug]   restart_scheduler_total_time_user= 0.00000000
+[14419][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[14419][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[14419][      debug]   
+[14419][      debug] GC stats for backend_stats.gc_stats_add.:
+[14419][      debug]   minor_words: 2.64702e+07
+[14419][      debug]   promoted_words: 198485
+[14419][      debug]   major_words: 214438
+[14419][      debug]   minor_collections: 28
+[14419][      debug]   major_collections: 5
+[14419][      debug]   compactions: 0
+[14419][      debug]   top_heap_words: 2299904
+[14419][      debug]   
+[14419][      debug] GC stats for backend_stats.gc_stats_max.:
+[14419][      debug]   minor_words: 1.46531e+07
+[14419][      debug]   promoted_words: 138059
+[14419][      debug]   major_words: 145236
+[14419][      debug]   minor_collections: 15
+[14419][      debug]   major_collections: 3
+[14419][      debug]   compactions: 0
+[14419][      debug]   top_heap_words: 574976
+[14419][      debug]   
+[14419][      debug] Average over 4 processes
+[14419][      debug] GC stats for backend_stats.gc_stats_average.:
+[14419][      debug]   minor_words: 6.61755e+06
+[14419][      debug]   promoted_words: 49621.2
+[14419][      debug]   major_words: 53609.5
+[14419][      debug]   minor_collections: 7
+[14419][      debug]   major_collections: 1
+[14419][      debug]   compactions: 0
+[14419][      debug]   top_heap_words: 574976
+[14419][      debug]   
+[14419][      debug] Analysis phase finished in 172ms
+[14419][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02676700
+[14419][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.03034100
+[14419][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.17237441
+[14419][      debug] GC stats for analysis_scheduler:
+[14419][      debug]   minor_words: 350807
+[14419][      debug]   promoted_words: 92545
+[14419][      debug]   major_words: 101251
+[14419][      debug]   minor_collections: 2
+[14419][      debug]   major_collections: 2
+[14419][      debug]   compactions: 1
+[14419][      debug]   top_heap_words: 574976
+[14419][      debug]   
+[14419][      debug] GC stats for report:
+[14419][      debug]   minor_words: 2874
+[14419][      debug]   promoted_words: 0
+[14419][      debug]   major_words: 0
+[14419][      debug]   minor_collections: 0
+[14419][      debug]   major_collections: 0
+[14419][      debug]   compactions: 0
+[14419][      debug]   top_heap_words: 574976
+[14419][      debug]   
+[14419][      debug] GC stats for main_process_full:
+[14419][      debug]   minor_words: 3.71776e+06
+[14419][      debug]   promoted_words: 512480
+[14419][      debug]   major_words: 552562
+[14419][      debug]   minor_collections: 11
+[14419][      debug]   major_collections: 5
+[14419][      debug]   compactions: 2
+[14419][      debug]   top_heap_words: 574976
+[14419][      debug]   
+[14420][      debug] Sqlite write daemon: terminating
+
+[14493][      phase] ============================================================
+[14493][      phase] = New infer execution begins
+[14493][      phase] ============================================================
+[14494][      debug] Sqlite write daemon: starting up
+[14494][      debug] Sqlite write daemon: set up complete, waiting for connections
+[14493][      phase] ============================================================
+[14493][      phase] = New infer execution begins
+[14493][      phase] ============================================================
+[14493][environment] CWD = /home/ica/Documents/Homework2MSFI/MSFI
+[14493][environment] No .inferconfig file found
+[14493][environment] Project root = /home/ica/Documents/Homework2MSFI/MSFI
+[14493][environment] INFER_ARGS =   @/tmp/args.tmp.36f571
+[14493][environment] command line arguments:   infer --reactive -- javac Digraph.java
+[14493][environment]                           LikedList.java Node.java Program.java
+[14493][environment] Available memory at startup: 511 MB
+[14493][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[14493][environment] Scheduler: file
+[14493][environment] Cores used: 4
+[14493][environment] Infer version v1.0.0
+[14493][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[14493][environment] 
+[14493][   progress] Capturing in javac mode...
+[14493][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/MSFI'
+[14493][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac_args.tmp.fa632f' 2>'/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac.tmp.f1534c.out'
+[14493][      debug] *** Success. Logs:
+[14493][      debug] Translating 4 source files (4 classes)
+[14493][      debug] done capturing all files
+[14493][      debug] GC stats for capture:
+[14493][      debug]   minor_words: 2.01646e+06
+[14493][      debug]   promoted_words: 348524
+[14493][      debug]   major_words: 364381
+[14493][      debug]   minor_collections: 3
+[14493][      debug]   major_collections: 1
+[14493][      debug]   compactions: 0
+[14493][      debug]   top_heap_words: 574976
+[14493][      debug]   
+[14493][environment] Parallel jobs: 4
+[14493][   progress] Found 4 (out of 4) source files to analyze in /home/ica/Documents/Homework2MSFI/MSFI/infer-out
+[14527][   progress] LikedList.java starting
+[14528][   progress] Node.java starting
+[14529][   progress] Program.java starting
+[14530][   progress] Digraph.java starting
+[14528][   progress] Node.java DONE
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14529][      debug] 
+[14529][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14527][   progress] LikedList.java DONE
+[14530][   progress] Digraph.java DONE
+[14529][   progress] Program.java DONE
+[14493][      debug] Backend stats:
+[14493][      debug]   summary_file_try_load= 204
+[14493][      debug]   summary_read_from_disk= 8
+[14493][      debug]   summary_cache_hits= 425 (67%)
+[14493][      debug]   summary_cache_misses= 204
+[14493][      debug]   ondemand_procs_analyzed= 15
+[14493][      debug]   ondemand_local_cache_hits= 207 (79%)
+[14493][      debug]   ondemand_local_cache_misses= 54
+[14493][      debug]   proc_locker_lock_time_user= 0.00000000
+[14493][      debug]   proc_locker_lock_time_sys= 0.00000000
+[14493][      debug]   proc_locker_lock_time_wall= 0.00000000
+[14493][      debug]   proc_locker_unlock_time_user= 0.00000000
+[14493][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[14493][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[14493][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[14493][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[14493][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[14493][      debug]   restart_scheduler_total_time_user= 0.00000000
+[14493][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[14493][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[14493][      debug]   
+[14493][      debug] GC stats for backend_stats.gc_stats_add.:
+[14493][      debug]   minor_words: 5.26369e+07
+[14493][      debug]   promoted_words: 219266
+[14493][      debug]   major_words: 301988
+[14493][      debug]   minor_collections: 52
+[14493][      debug]   major_collections: 8
+[14493][      debug]   compactions: 0
+[14493][      debug]   top_heap_words: 2386432
+[14493][      debug]   
+[14493][      debug] GC stats for backend_stats.gc_stats_max.:
+[14493][      debug]   minor_words: 2.40747e+07
+[14493][      debug]   promoted_words: 106066
+[14493][      debug]   major_words: 148701
+[14493][      debug]   minor_collections: 24
+[14493][      debug]   major_collections: 3
+[14493][      debug]   compactions: 0
+[14493][      debug]   top_heap_words: 661504
+[14493][      debug]   
+[14493][      debug] Average over 4 processes
+[14493][      debug] GC stats for backend_stats.gc_stats_average.:
+[14493][      debug]   minor_words: 1.31592e+07
+[14493][      debug]   promoted_words: 54816.5
+[14493][      debug]   major_words: 75497
+[14493][      debug]   minor_collections: 13
+[14493][      debug]   major_collections: 2
+[14493][      debug]   compactions: 0
+[14493][      debug]   top_heap_words: 596608
+[14493][      debug]   
+[14493][      debug] Analysis phase finished in 241ms
+[14493][      debug] backend_stats.scheduler_process_analysis_time_user= 0.03064000
+[14493][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01476600
+[14493][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.24131390
+[14493][      debug] GC stats for analysis_scheduler:
+[14493][      debug]   minor_words: 802180
+[14493][      debug]   promoted_words: 908
+[14493][      debug]   major_words: 9614
+[14493][      debug]   minor_collections: 1
+[14493][      debug]   major_collections: 2
+[14493][      debug]   compactions: 1
+[14493][      debug]   top_heap_words: 574976
+[14493][      debug]   
+[14493][      debug] GC stats for report:
+[14493][      debug]   minor_words: 4389
+[14493][      debug]   promoted_words: 0
+[14493][      debug]   major_words: 1167
+[14493][      debug]   minor_collections: 0
+[14493][      debug]   major_collections: 0
+[14493][      debug]   compactions: 0
+[14493][      debug]   top_heap_words: 574976
+[14493][      debug]   
+[14493][      debug] GC stats for main_process_full:
+[14493][      debug]   minor_words: 4.25413e+06
+[14493][      debug]   promoted_words: 519519
+[14493][      debug]   major_words: 561605
+[14493][      debug]   minor_collections: 11
+[14493][      debug]   major_collections: 5
+[14493][      debug]   compactions: 2
+[14493][      debug]   top_heap_words: 574976
+[14493][      debug]   
+[14494][      debug] Sqlite write daemon: terminating
+
+[14569][      phase] ============================================================
+[14569][      phase] = New infer execution begins
+[14569][      phase] ============================================================
+[14570][      debug] Sqlite write daemon: starting up
+[14570][      debug] Sqlite write daemon: set up complete, waiting for connections
+[14569][      phase] ============================================================
+[14569][      phase] = New infer execution begins
+[14569][      phase] ============================================================
+[14569][environment] CWD = /home/ica/Documents/Homework2MSFI/MSFI
+[14569][environment] No .inferconfig file found
+[14569][environment] Project root = /home/ica/Documents/Homework2MSFI/MSFI
+[14569][environment] INFER_ARGS =   @/tmp/args.tmp.e21578
+[14569][environment] command line arguments:   infer --reactive -- javac LikedList.java
+[14569][environment]                           Program.java Program.java
+[14569][environment] Available memory at startup: 515 MB
+[14569][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[14569][environment] Scheduler: file
+[14569][environment] Cores used: 4
+[14569][environment] Infer version v1.0.0
+[14569][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[14569][environment] 
+[14569][   progress] Capturing in javac mode...
+[14569][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/MSFI'
+[14569][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac_args.tmp.873bcc' 2>'/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac.tmp.2cb4cb.out'
+[14569][      debug] *** Success. Logs:
+[14569][      debug] Translating 2 source files (2 classes)
+[14569][      debug] done capturing all files
+[14569][      debug] GC stats for capture:
+[14569][      debug]   minor_words: 1.9003e+06
+[14569][      debug]   promoted_words: 249793
+[14569][      debug]   major_words: 264958
+[14569][      debug]   minor_collections: 2
+[14569][      debug]   major_collections: 1
+[14569][      debug]   compactions: 0
+[14569][      debug]   top_heap_words: 434176
+[14569][      debug]   
+[14569][environment] Parallel jobs: 4
+[14569][   progress] Found 2 (out of 4) source files to analyze in /home/ica/Documents/Homework2MSFI/MSFI/infer-out
+[14605][   progress] LikedList.java starting
+[14604][   progress] Program.java starting
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14604][      debug] 
+[14604][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14605][   progress] LikedList.java DONE
+[14604][   progress] Program.java DONE
+[14569][      debug] Backend stats:
+[14569][      debug]   summary_file_try_load= 179
+[14569][      debug]   summary_read_from_disk= 3
+[14569][      debug]   summary_cache_hits= 343 (65%)
+[14569][      debug]   summary_cache_misses= 179
+[14569][      debug]   ondemand_procs_analyzed= 14
+[14569][      debug]   ondemand_local_cache_hits= 178 (80%)
+[14569][      debug]   ondemand_local_cache_misses= 42
+[14569][      debug]   proc_locker_lock_time_user= 0.00000000
+[14569][      debug]   proc_locker_lock_time_sys= 0.00000000
+[14569][      debug]   proc_locker_lock_time_wall= 0.00000000
+[14569][      debug]   proc_locker_unlock_time_user= 0.00000000
+[14569][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[14569][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[14569][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[14569][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[14569][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[14569][      debug]   restart_scheduler_total_time_user= 0.00000000
+[14569][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[14569][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[14569][      debug]   
+[14569][      debug] GC stats for backend_stats.gc_stats_add.:
+[14569][      debug]   minor_words: 4.42563e+07
+[14569][      debug]   promoted_words: 383018
+[14569][      debug]   major_words: 438612
+[14569][      debug]   minor_collections: 46
+[14569][      debug]   major_collections: 6
+[14569][      debug]   compactions: 0
+[14569][      debug]   top_heap_words: 2104832
+[14569][      debug]   
+[14569][      debug] GC stats for backend_stats.gc_stats_max.:
+[14569][      debug]   minor_words: 3.02267e+07
+[14569][      debug]   promoted_words: 228669
+[14569][      debug]   major_words: 274940
+[14569][      debug]   minor_collections: 31
+[14569][      debug]   major_collections: 3
+[14569][      debug]   compactions: 0
+[14569][      debug]   top_heap_words: 661504
+[14569][      debug]   
+[14569][      debug] Average over 4 processes
+[14569][      debug] GC stats for backend_stats.gc_stats_average.:
+[14569][      debug]   minor_words: 1.10641e+07
+[14569][      debug]   promoted_words: 95754.5
+[14569][      debug]   major_words: 109653
+[14569][      debug]   minor_collections: 11
+[14569][      debug]   major_collections: 1
+[14569][      debug]   compactions: 0
+[14569][      debug]   top_heap_words: 526208
+[14569][      debug]   
+[14569][      debug] Analysis phase finished in 213ms
+[14569][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02684800
+[14569][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.00690700
+[14569][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.21348333
+[14569][      debug] GC stats for analysis_scheduler:
+[14569][      debug]   minor_words: 716000
+[14569][      debug]   promoted_words: 92307
+[14569][      debug]   major_words: 101013
+[14569][      debug]   minor_collections: 2
+[14569][      debug]   major_collections: 2
+[14569][      debug]   compactions: 1
+[14569][      debug]   top_heap_words: 574976
+[14569][      debug]   
+[14569][      debug] GC stats for report:
+[14569][      debug]   minor_words: 4389
+[14569][      debug]   promoted_words: 0
+[14569][      debug]   major_words: 1167
+[14569][      debug]   minor_collections: 0
+[14569][      debug]   major_collections: 0
+[14569][      debug]   compactions: 0
+[14569][      debug]   top_heap_words: 574976
+[14569][      debug]   
+[14569][      debug] GC stats for main_process_full:
+[14569][      debug]   minor_words: 4.05203e+06
+[14569][      debug]   promoted_words: 512176
+[14569][      debug]   major_words: 553570
+[14569][      debug]   minor_collections: 11
+[14569][      debug]   major_collections: 5
+[14569][      debug]   compactions: 2
+[14569][      debug]   top_heap_words: 574976
+[14569][      debug]   
+[14570][      debug] Sqlite write daemon: terminating
+
+[14634][      phase] ============================================================
+[14634][      phase] = New infer execution begins
+[14634][      phase] ============================================================
+[14635][      debug] Sqlite write daemon: starting up
+[14635][      debug] Sqlite write daemon: set up complete, waiting for connections
+[14634][      phase] ============================================================
+[14634][      phase] = New infer execution begins
+[14634][      phase] ============================================================
+[14634][environment] CWD = /home/ica/Documents/Homework2MSFI/MSFI
+[14634][environment] No .inferconfig file found
+[14634][environment] Project root = /home/ica/Documents/Homework2MSFI/MSFI
+[14634][environment] INFER_ARGS =   @/tmp/args.tmp.395fb7
+[14634][environment] command line arguments:   infer --reactive -- javac LikedList.java
+[14634][environment]                           Digraph.java Program.java
+[14634][environment] Available memory at startup: 499 MB
+[14634][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[14634][environment] Scheduler: file
+[14634][environment] Cores used: 4
+[14634][environment] Infer version v1.0.0
+[14634][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[14634][environment] 
+[14634][   progress] Capturing in javac mode...
+[14634][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/MSFI'
+[14634][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac_args.tmp.e32986' 2>'/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac.tmp.870e7d.out'
+[14634][      debug] *** Success. Logs:
+[14634][      debug] Translating 3 source files (3 classes)
+[14634][      debug] done capturing all files
+[14634][      debug] GC stats for capture:
+[14634][      debug]   minor_words: 2.00336e+06
+[14634][      debug]   promoted_words: 342085
+[14634][      debug]   major_words: 357969
+[14634][      debug]   minor_collections: 3
+[14634][      debug]   major_collections: 1
+[14634][      debug]   compactions: 0
+[14634][      debug]   top_heap_words: 574976
+[14634][      debug]   
+[14634][environment] Parallel jobs: 4
+[14634][   progress] Found 3 (out of 4) source files to analyze in /home/ica/Documents/Homework2MSFI/MSFI/infer-out
+[14663][   progress] LikedList.java starting
+[14664][   progress] Digraph.java starting
+[14665][   progress] Program.java starting
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14665][      debug] 
+[14665][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[14663][   progress] LikedList.java DONE
+[14664][   progress] Digraph.java DONE
+[14665][   progress] Program.java DONE
+[14634][      debug] Backend stats:
+[14634][      debug]   summary_file_try_load= 199
+[14634][      debug]   summary_read_from_disk= 8
+[14634][      debug]   summary_cache_hits= 409 (67%)
+[14634][      debug]   summary_cache_misses= 199
+[14634][      debug]   ondemand_procs_analyzed= 14
+[14634][      debug]   ondemand_local_cache_hits= 202 (79%)
+[14634][      debug]   ondemand_local_cache_misses= 51
+[14634][      debug]   proc_locker_lock_time_user= 0.00000000
+[14634][      debug]   proc_locker_lock_time_sys= 0.00000000
+[14634][      debug]   proc_locker_lock_time_wall= 0.00000000
+[14634][      debug]   proc_locker_unlock_time_user= 0.00000000
+[14634][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[14634][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[14634][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[14634][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[14634][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[14634][      debug]   restart_scheduler_total_time_user= 0.00000000
+[14634][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[14634][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[14634][      debug]   
+[14634][      debug] GC stats for backend_stats.gc_stats_add.:
+[14634][      debug]   minor_words: 5.20104e+07
+[14634][      debug]   promoted_words: 218495
+[14634][      debug]   major_words: 300169
+[14634][      debug]   minor_collections: 52
+[14634][      debug]   major_collections: 8
+[14634][      debug]   compactions: 0
+[14634][      debug]   top_heap_words: 2386432
+[14634][      debug]   
+[14634][      debug] GC stats for backend_stats.gc_stats_max.:
+[14634][      debug]   minor_words: 2.40747e+07
+[14634][      debug]   promoted_words: 104117
+[14634][      debug]   major_words: 146752
+[14634][      debug]   minor_collections: 24
+[14634][      debug]   major_collections: 3
+[14634][      debug]   compactions: 0
+[14634][      debug]   top_heap_words: 661504
+[14634][      debug]   
+[14634][      debug] Average over 4 processes
+[14634][      debug] GC stats for backend_stats.gc_stats_average.:
+[14634][      debug]   minor_words: 1.30026e+07
+[14634][      debug]   promoted_words: 54623.8
+[14634][      debug]   major_words: 75042.2
+[14634][      debug]   minor_collections: 13
+[14634][      debug]   major_collections: 2
+[14634][      debug]   compactions: 0
+[14634][      debug]   top_heap_words: 596608
+[14634][      debug]   
+[14634][      debug] Analysis phase finished in 219ms
+[14634][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02959900
+[14634][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.00510900
+[14634][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.21920898
+[14634][      debug] GC stats for analysis_scheduler:
+[14634][      debug]   minor_words: 745930
+[14634][      debug]   promoted_words: 788
+[14634][      debug]   major_words: 9494
+[14634][      debug]   minor_collections: 1
+[14634][      debug]   major_collections: 2
+[14634][      debug]   compactions: 1
+[14634][      debug]   top_heap_words: 574976
+[14634][      debug]   
+[14634][      debug] GC stats for report:
+[14634][      debug]   minor_words: 4389
+[14634][      debug]   promoted_words: 0
+[14634][      debug]   major_words: 1167
+[14634][      debug]   minor_collections: 0
+[14634][      debug]   major_collections: 0
+[14634][      debug]   compactions: 0
+[14634][      debug]   top_heap_words: 574976
+[14634][      debug]   
+[14634][      debug] GC stats for main_process_full:
+[14634][      debug]   minor_words: 4.1854e+06
+[14634][      debug]   promoted_words: 512949
+[14634][      debug]   major_words: 555062
+[14634][      debug]   minor_collections: 11
+[14634][      debug]   major_collections: 5
+[14634][      debug]   compactions: 2
+[14634][      debug]   top_heap_words: 574976
+[14634][      debug]   
+[14635][      debug] Sqlite write daemon: terminating

@@ -2,11 +2,15 @@
 public class Program {
 
 	public static void main(String[] args) {
-		LikedList<String> list=new LikedList<String>();
-		//list.add("a");
-		//list.add("b");
-		//list.add("c");
-		list.show();
+		Digraph<Integer> digraph=new Digraph<Integer>();
+		digraph.addNode(5);
+		digraph.addNode(7);
+		digraph.addNode(8);
+		digraph.addFromTo(5, 8);
+		digraph.addFromTo(5, 7);
+		digraph.addFromTo(8, 5);
+		digraph.addNode(5);
+		digraph.show();
 		
 	}
 

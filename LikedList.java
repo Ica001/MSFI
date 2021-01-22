@@ -20,7 +20,7 @@ public class LikedList<T> {
 	public void show() {
 		Node it=head;
 		if (it==null) {
-			System.out.println("List is empty!");
+			System.out.println("null");
 		} else {
 
 		while(it!=null) {
@@ -29,9 +29,20 @@ public class LikedList<T> {
 		}
 		}
 	}
-	
-	
+
+	public String myToString() {
+		String s="";
+		Node it=head;
+		
+		while(it!=null) {
+		  s+=it.val.toString()+" ";
+		  it=it.next;
+		}
+		
+		return s;
+	}
 	
 	
 	
 }
+
