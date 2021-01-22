@@ -945,3 +945,267 @@
 [14634][      debug]   top_heap_words: 574976
 [14634][      debug]   
 [14635][      debug] Sqlite write daemon: terminating
+
+[22313][      phase] ============================================================
+[22313][      phase] = New infer execution begins
+[22313][      phase] ============================================================
+[22315][      debug] Sqlite write daemon: starting up
+[22315][      debug] Sqlite write daemon: set up complete, waiting for connections
+[22313][      phase] ============================================================
+[22313][      phase] = New infer execution begins
+[22313][      phase] ============================================================
+[22313][environment] CWD = /home/ica/Documents/Homework2MSFI/MSFI
+[22313][environment] No .inferconfig file found
+[22313][environment] Project root = /home/ica/Documents/Homework2MSFI/MSFI
+[22313][environment] INFER_ARGS =   @/tmp/args.tmp.ac1ec1
+[22313][environment] command line arguments:   infer --reactive -- javac LikedList.java
+[22313][environment]                           Digraph.java Program.java PairNode.java
+[22313][environment] Available memory at startup: 556 MB
+[22313][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[22313][environment] Scheduler: file
+[22313][environment] Cores used: 4
+[22313][environment] Infer version v1.0.0
+[22313][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[22313][environment] 
+[22313][   progress] Capturing in javac mode...
+[22313][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/MSFI'
+[22313][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac_args.tmp.ed7d05' 2>'/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac.tmp.8add6a.out'
+[22313][      debug] *** Success. Logs:
+[22313][      debug] Translating 4 source files (4 classes)
+[22313][      debug] done capturing all files
+[22313][      debug] GC stats for capture:
+[22313][      debug]   minor_words: 2.47895e+06
+[22313][      debug]   promoted_words: 329495
+[22313][      debug]   major_words: 350754
+[22313][      debug]   minor_collections: 3
+[22313][      debug]   major_collections: 1
+[22313][      debug]   compactions: 0
+[22313][      debug]   top_heap_words: 574976
+[22313][      debug]   
+[22313][environment] Parallel jobs: 4
+[22313][   progress] Found 4 (out of 5) source files to analyze in /home/ica/Documents/Homework2MSFI/MSFI/infer-out
+[22351][   progress] LikedList.java starting
+[22354][   progress] Digraph.java starting
+[22352][   progress] PairNode.java starting
+[22353][   progress] Program.java starting
+[22352][   progress] PairNode.java DONE
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22353][      debug] 
+[22353][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22354][      debug] 
+[22354][      debug] typ_get_recursive_flds: unexpected sizeof(t=) unknown struct type: class java.io.Closeable
+[22351][   progress] LikedList.java DONE
+[22354][   progress] Digraph.java DONE
+[22353][   progress] Program.java DONE
+[22313][      debug] Backend stats:
+[22313][      debug]   summary_file_try_load= 701
+[22313][      debug]   summary_read_from_disk= 12
+[22313][      debug]   summary_cache_hits= 694 (49%)
+[22313][      debug]   summary_cache_misses= 701
+[22313][      debug]   ondemand_procs_analyzed= 26
+[22313][      debug]   ondemand_local_cache_hits= 621 (86%)
+[22313][      debug]   ondemand_local_cache_misses= 95
+[22313][      debug]   proc_locker_lock_time_user= 0.00000000
+[22313][      debug]   proc_locker_lock_time_sys= 0.00000000
+[22313][      debug]   proc_locker_lock_time_wall= 0.00000000
+[22313][      debug]   proc_locker_unlock_time_user= 0.00000000
+[22313][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[22313][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[22313][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[22313][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[22313][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[22313][      debug]   restart_scheduler_total_time_user= 0.00000000
+[22313][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[22313][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[22313][      debug]   
+[22313][      debug] GC stats for backend_stats.gc_stats_add.:
+[22313][      debug]   minor_words: 2.86566e+08
+[22313][      debug]   promoted_words: 1.4177e+06
+[22313][      debug]   major_words: 1.6048e+06
+[22313][      debug]   minor_collections: 280
+[22313][      debug]   major_collections: 12
+[22313][      debug]   compactions: 0
+[22313][      debug]   top_heap_words: 3348992
+[22313][      debug]   
+[22313][      debug] GC stats for backend_stats.gc_stats_max.:
+[22313][      debug]   minor_words: 1.18404e+08
+[22313][      debug]   promoted_words: 602020
+[22313][      debug]   major_words: 697489
+[22313][      debug]   minor_collections: 116
+[22313][      debug]   major_collections: 5
+[22313][      debug]   compactions: 0
+[22313][      debug]   top_heap_words: 1006592
+[22313][      debug]   
+[22313][      debug] Average over 4 processes
+[22313][      debug] GC stats for backend_stats.gc_stats_average.:
+[22313][      debug]   minor_words: 7.16416e+07
+[22313][      debug]   promoted_words: 354425
+[22313][      debug]   major_words: 401199
+[22313][      debug]   minor_collections: 70
+[22313][      debug]   major_collections: 3
+[22313][      debug]   compactions: 0
+[22313][      debug]   top_heap_words: 837248
+[22313][      debug]   
+[22313][      debug] Analysis phase finished in 544ms
+[22313][      debug] backend_stats.scheduler_process_analysis_time_user= 0.03511800
+[22313][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01219800
+[22313][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.54361024
+[22313][      debug] GC stats for analysis_scheduler:
+[22313][      debug]   minor_words: 1.42536e+06
+[22313][      debug]   promoted_words: 36265
+[22313][      debug]   major_words: 44971
+[22313][      debug]   minor_collections: 3
+[22313][      debug]   major_collections: 2
+[22313][      debug]   compactions: 1
+[22313][      debug]   top_heap_words: 574976
+[22313][      debug]   
+[22313][      debug] GC stats for report:
+[22313][      debug]   minor_words: 6520
+[22313][      debug]   promoted_words: 0
+[22313][      debug]   major_words: 2770
+[22313][      debug]   minor_collections: 0
+[22313][      debug]   major_collections: 0
+[22313][      debug]   compactions: 0
+[22313][      debug]   top_heap_words: 574976
+[22313][      debug]   
+[22313][      debug] GC stats for main_process_full:
+[22313][      debug]   minor_words: 5.34305e+06
+[22313][      debug]   promoted_words: 535847
+[22313][      debug]   major_words: 584938
+[22313][      debug]   minor_collections: 13
+[22313][      debug]   major_collections: 5
+[22313][      debug]   compactions: 2
+[22313][      debug]   top_heap_words: 574976
+[22313][      debug]   
+[22315][      debug] Sqlite write daemon: terminating
