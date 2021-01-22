@@ -1,7 +1,7 @@
 
 public class LikedList<T> {
     Node head;
-   private Node lastNode=head;
+   private Node lastNode=null;
    
    
 	public void add(T x) {

@@ -118,3 +118,124 @@
 [7973][      debug]   top_heap_words: 1006592
 [7973][      debug]   
 [7983][      debug] Sqlite write daemon: terminating
+
+[8477][      phase] ============================================================
+[8477][      phase] = New infer execution begins
+[8477][      phase] ============================================================
+[8478][      debug] Sqlite write daemon: starting up
+[8478][      debug] Sqlite write daemon: set up complete, waiting for connections
+[8477][      phase] ============================================================
+[8477][      phase] = New infer execution begins
+[8477][      phase] ============================================================
+[8477][environment] CWD = /home/ica/Documents/Homework2MSFI/MSFI
+[8477][environment] No .inferconfig file found
+[8477][environment] Project root = /home/ica/Documents/Homework2MSFI/MSFI
+[8477][environment] INFER_ARGS =   @/tmp/args.tmp.3d6c50
+[8477][environment] command line arguments:   infer --reactive -- javac LikedList.java
+[8477][environment] Available memory at startup: 1077 MB
+[8477][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[8477][environment] Scheduler: file
+[8477][environment] Cores used: 4
+[8477][environment] Infer version v1.0.0
+[8477][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[8477][environment] 
+[8477][   progress] Capturing in javac mode...
+[8477][      debug] Current working directory: '/home/ica/Documents/Homework2MSFI/MSFI'
+[8477][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac_args.tmp.85356b' 2>'/home/ica/Documents/Homework2MSFI/MSFI/infer-out/tmp/javac.tmp.eda8ab.out'
+[8477][      debug] *** Success. Logs:
+[8477][      debug] Translating 1 source files (1 classes)
+[8477][      debug] done capturing all files
+[8477][      debug] GC stats for capture:
+[8477][      debug]   minor_words: 1.75147e+06
+[8477][      debug]   promoted_words: 250063
+[8477][      debug]   major_words: 264474
+[8477][      debug]   minor_collections: 2
+[8477][      debug]   major_collections: 1
+[8477][      debug]   compactions: 0
+[8477][      debug]   top_heap_words: 434176
+[8477][      debug]   
+[8477][environment] Parallel jobs: 4
+[8477][   progress] Found 1 (out of 3) source file to analyze in /home/ica/Documents/Homework2MSFI/MSFI/infer-out
+[8515][   progress] LikedList.java starting
+[8515][   progress] LikedList.java DONE
+[8477][      debug] Backend stats:
+[8477][      debug]   summary_file_try_load= 29
+[8477][      debug]   summary_read_from_disk= 0
+[8477][      debug]   summary_cache_hits= 66 (69%)
+[8477][      debug]   summary_cache_misses= 29
+[8477][      debug]   ondemand_procs_analyzed= 4
+[8477][      debug]   ondemand_local_cache_hits= 25 (71%)
+[8477][      debug]   ondemand_local_cache_misses= 10
+[8477][      debug]   proc_locker_lock_time_user= 0.00000000
+[8477][      debug]   proc_locker_lock_time_sys= 0.00000000
+[8477][      debug]   proc_locker_lock_time_wall= 0.00000000
+[8477][      debug]   proc_locker_unlock_time_user= 0.00000000
+[8477][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[8477][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[8477][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[8477][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[8477][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[8477][      debug]   restart_scheduler_total_time_user= 0.00000000
+[8477][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[8477][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[8477][      debug]   
+[8477][      debug] GC stats for backend_stats.gc_stats_add.:
+[8477][      debug]   minor_words: 4.21447e+06
+[8477][      debug]   promoted_words: 109240
+[8477][      debug]   major_words: 116126
+[8477][      debug]   minor_collections: 5
+[8477][      debug]   major_collections: 1
+[8477][      debug]   compactions: 0
+[8477][      debug]   top_heap_words: 1877504
+[8477][      debug]   
+[8477][      debug] GC stats for backend_stats.gc_stats_max.:
+[8477][      debug]   minor_words: 4.21425e+06
+[8477][      debug]   promoted_words: 109240
+[8477][      debug]   major_words: 116126
+[8477][      debug]   minor_collections: 5
+[8477][      debug]   major_collections: 1
+[8477][      debug]   compactions: 0
+[8477][      debug]   top_heap_words: 574976
+[8477][      debug]   
+[8477][      debug] Average over 4 processes
+[8477][      debug] GC stats for backend_stats.gc_stats_average.:
+[8477][      debug]   minor_words: 1.05362e+06
+[8477][      debug]   promoted_words: 27310
+[8477][      debug]   major_words: 29031.5
+[8477][      debug]   minor_collections: 1
+[8477][      debug]   major_collections: 0
+[8477][      debug]   compactions: 0
+[8477][      debug]   top_heap_words: 469376
+[8477][      debug]   
+[8477][      debug] Analysis phase finished in 44.113ms
+[8477][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01626100
+[8477][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.00401600
+[8477][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.04411331
+[8477][      debug] GC stats for analysis_scheduler:
+[8477][      debug]   minor_words: 238444
+[8477][      debug]   promoted_words: 90111
+[8477][      debug]   major_words: 98817
+[8477][      debug]   minor_collections: 1
+[8477][      debug]   major_collections: 2
+[8477][      debug]   compactions: 1
+[8477][      debug]   top_heap_words: 574976
+[8477][      debug]   
+[8477][      debug] GC stats for report:
+[8477][      debug]   minor_words: 2418
+[8477][      debug]   promoted_words: 0
+[8477][      debug]   major_words: 0
+[8477][      debug]   minor_collections: 0
+[8477][      debug]   major_collections: 0
+[8477][      debug]   compactions: 0
+[8477][      debug]   top_heap_words: 574976
+[8477][      debug]   
+[8477][      debug] GC stats for main_process_full:
+[8477][      debug]   minor_words: 3.4223e+06
+[8477][      debug]   promoted_words: 510228
+[8477][      debug]   major_words: 549701
+[8477][      debug]   minor_collections: 10
+[8477][      debug]   major_collections: 5
+[8477][      debug]   compactions: 2
+[8477][      debug]   top_heap_words: 574976
+[8477][      debug]   
+[8478][      debug] Sqlite write daemon: terminating
